@@ -3,7 +3,8 @@
 body {
   background: #ffdc98;
   font-family: 'Roboto', sans-serif;
-  justify-content: center;
+  width: auto;
+  margin: auto;
 }
 
 main {
@@ -12,7 +13,7 @@ main {
   display: flex;
   width: 650px;
   height: 800px;
-  position: absolute;
+  position: relative;
   background-color: #ffffff;
 }
 
