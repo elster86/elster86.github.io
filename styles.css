@@ -3,7 +3,7 @@
 body {
   background: #ffdc98;
   font-family: 'Roboto', sans-serif;
-  justify-content: center;
+  margin: auto;
 }
 
 main {
