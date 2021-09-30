@@ -13,7 +13,7 @@ main {
   display: flex;
   width: 650px;
   height: 800px;
-  position: relative;
+  position: absolute;
   background-color: #ffffff;
 }
 
