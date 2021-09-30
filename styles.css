@@ -15,6 +15,7 @@ main {
   height: 800px;
   position: absolute;
   background-color: #ffffff;
+  justify-content: center;
 }
 
 h1 {
