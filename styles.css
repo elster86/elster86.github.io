@@ -4,7 +4,8 @@ body {
   background: #ffdc98;
   font-family: 'Roboto', sans-serif;
   width: auto;
-  margin: auto;
+  height: auto;
+  margin: 10% 0;
 }
 
 main {
