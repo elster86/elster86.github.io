@@ -48,6 +48,21 @@ h3 {
   letter-spacing: 3px;
 }
 
+h3:hover {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 200;
+  text-align: center;
+  width: 70%;
+  text-transform: uppercase;
+  overflow: visible;
+  border: 1.5px solid #ff9c02;
+  padding: 5px 5% 5px 5%;
+  margin: auto;
+  letter-spacing: 3px;
+  background-color: #ff9c02;
+}
+
 h4 {
   color: #ffffff;
   font-size: 12px;
@@ -104,6 +119,14 @@ p {
   border-width: 10px;
 }
 
+.photo:hover {
+  box-shadow: 0 0 10px 1px rgba(0,0,0,0.69);
+  position: relative;
+  top: 1px;
+  left: 1px;
+  transform: scale(-1, 1);
+}
+
 .list {
   padding: 0 20%;
   list-style-type: square;
@@ -114,6 +137,10 @@ p {
   color: #000000;
 }
 
+.list li:hover {
+  list-style-image: url('https://i.imgur.com/uvFHTBe.png');
+}
+
 .schedule {
   margin: 0 0 0 15%;
 }
@@ -121,10 +148,20 @@ p {
 .table1 {
   width: 85%;
   border: 3px solid #ff9c02;
+  border-collapse: collapse;
 }
 
 .table1 td {
   text-align: center;
+}
+
+.table1 tr:hover {
+  background: rgba(255,156,2,0.2);
+  color: #000000;
+}
+
+.table1 td:hover {
+  border: none;
 }
 
 .courses {
@@ -133,6 +170,7 @@ p {
 
 .table2 {
   width: 85%;
+  border-collapse: collapse;
 }
 
 .table2 th {
@@ -142,6 +180,19 @@ p {
 
 .table2 td {
   text-align: center;
+}
+
+.table2 tr:hover {
+  background: rgba(255,156,2,0.2);
+  color: #000000;
+}
+
+.table2 th {
+  background-color: #ffffff !important;
+}
+
+.table2 td:hover {
+  border: none;
 }
 
 .name {
@@ -195,6 +246,14 @@ p {
   justify-content: center;
   position: relative;
   bottom: -50%;
+}
+
+.sbtn:hover {
+  border-radius: 25%;
+  box-shadow: 0 0 10px 1px white;
+  position: relative;
+  top: 1px;
+  left: 1px;
 }
 
 .lside {
